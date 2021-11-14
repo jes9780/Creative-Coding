@@ -1,0 +1,26 @@
+.p {
+  color: white;
+  font-family: "Times New Roman";
+  background-color: teal;
+
+}
+
+.fucked up{
+  color: white;
+  font-size: 3;
+  font-family: cursive;
+}
+#id1{
+  color: hotpink;
+  font-size: 3;
+  font-family: cursive;
+}
+
+body{
+  background-color: teal
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}

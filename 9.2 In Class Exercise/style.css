@@ -1,0 +1,18 @@
+p {
+  color: black;
+  font-family: cursive;
+  background-color: pink;
+
+}
+img {
+  width: 300px;
+}
+
+body{
+  background-color: pink
+}
+
+a{
+  color: black;
+  text-decoration: none;
+}
