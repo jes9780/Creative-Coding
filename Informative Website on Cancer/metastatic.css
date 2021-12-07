@@ -69,3 +69,11 @@ h3{
   width: 50%;
   padding: 10px;
 }
+
+p, .a{
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+h3{
+  font-family: "Lucida Console", "Courier New", monospace;
+}

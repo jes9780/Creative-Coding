@@ -71,9 +71,13 @@ h3{
   margin-left: 50px;
 }
 
-body {
-  /* background-image: url("/Informative Website on Cancer/Cancer/cancer.html Images/cancerribbons.png"); */
-  background-repeat: no-repeat;
-  background-position: right top;
-  background-attachment: fixed;
+.a{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 150px;
+  margin-left: 80px;
+}
+
+h1, h3, p, .a{
+  font-family: "Lucida Console", "Courier New", monospace;
 }

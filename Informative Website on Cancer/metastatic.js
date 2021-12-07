@@ -1,16 +1,22 @@
-function setup(){
-  let canvas=createCanvas(400,400);
-  canvas.parent = 'sketch-container';
+let bg;
+let abd;
+let lymph;
+
+function preload()
+{
+  // load images
+  bg = loadImage('/Informative Website on Cancer/assets/yuhhh-1.png');
+  abd = loadImage('/Informative Website on Cancer/assets/aabd.png');
+  lymph = loadImage('/Informative Website on Cancer/assets/lympph.png');
 }
 
-function preload(){
-  img = loadImage('/Informative Website on Cancer/main.png');
+function setup() {
+  createCanvas(600, 600);
 }
 
+function draw() {
+  background(bg);
+  image(abd, 0, 0, 600, 600);
+  image(lymph, 0, 0, 600, 600);
 
-// <div>
-//   <img id="backgroundImg" style="position: absolute; top: 0;" src="/Informative Website on Cancer/main.png">
-//   <img id="circulatory" src="/Informative Website on Cancer/circulatory.png" >
-//   <img id="lymphatic" src="/Informative Website on Cancer/lymphatic.png">
-//   <img id="abdomen"src="/Informative Website on Cancer/abdom.png">
-// </div>
+}
