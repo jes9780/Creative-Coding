@@ -1,0 +1,77 @@
+html, body {
+  margin: 0px;
+  padding: 0px;
+}
+
+ul.toplinks {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  margin-bottom: 100px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+
+h1 {
+  margin-top:75px;
+}
+
+ul.list{
+  list-style-type: circle;
+}
+
+canvas {
+  position: absolute;
+  display: block;
+  width: 100%;
+  top: 20%;
+}
+
+.menu-bar {
+  position: absolute;
+  width: 100%;
+
+}
+
+.sliders{
+  position:absolute;
+  top:15%;
+  width:100%;
+}
+
+p, ul{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 150px;
+  margin-left: 80px;
+}
+
+h3{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 150px;
+  margin-left: 50px;
+}
