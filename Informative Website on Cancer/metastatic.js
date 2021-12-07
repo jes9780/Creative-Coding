@@ -1,22 +1,17 @@
-let bg;
-let abd;
-let lymph;
-
-function preload()
-{
-  // load images
-  bg = loadImage('/Informative Website on Cancer/assets/yuhhh-1.png');
-  abd = loadImage('/Informative Website on Cancer/assets/aabd.png');
-  lymph = loadImage('/Informative Website on Cancer/assets/lympph.png');
+function LymphToggle(){
+  let Lymph=document.getElementById("Lymph")
+  if (Lymph.style.opacity==0){
+    Lymph.style.opacity=1
+  }else{
+    Lymph.style.opacity=0
+  }
 }
 
-function setup() {
-  createCanvas(600, 600);
-}
-
-function draw() {
-  background(bg);
-  image(abd, 0, 0, 600, 600);
-  image(lymph, 0, 0, 600, 600);
-
+function BWallToggle(){
+  let BWall=document.getElementById("Body")
+  if (BWall.style.opacity==0){
+    BWall.style.opacity=1
+  }else{
+    BWall.style.opacity=0
+  }
 }

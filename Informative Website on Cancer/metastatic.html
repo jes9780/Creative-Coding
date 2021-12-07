@@ -8,9 +8,9 @@
   <body>
 
   <ul class="toplinks">
-    <li><a href="https://jes9780.github.io/Creative-Coding/Informative%20Website%20on%20Cancer/Cancer/Cancer.html">What is Cancer?</a></li>
-    <li><a href="https://jes9780.github.io/Creative-Coding/Informative%20Website%20on%20Cancer/CancerTypes/cancerTypes.html">What Types of Cancer Are There?</a></li>
-    <li><a class="active" href="https://jes9780.github.io/Creative-Coding/Informative%20Website%20on%20Cancer/metastatic.html">Metastatic Growth</a></li>
+    <li><a href="/Informative Website on Cancer/Cancer/Cancer.html">What is Cancer?</a></li>
+    <li><a href="/Informative Website on Cancer/CancerTypes/cancerTypes.html">What Types of Cancer Are There?</a></li>
+    <li><a class="active" href="metastatic.html">Metastatic Growth</a></li>
   </ul>
 
   <p>
@@ -51,5 +51,17 @@
   <p>
     The circulatory system is the primary route of spread to distant organs, while lymphatic vessels provide a route to local lymph nodes, after which metastases often travel through the blood. While the circulatory system appears to be the most common route, the extent of lymphatic versus hematogenous spread appears to depend on the origin and location of the primary tumor. For example, bone and soft tissue tumors (sarcomas) spread primarily through the blood, while melanoma, breast, lung and gastrointestinal tumors spread through the lymphatic system. Transcoelomic spread is fairly uncommon, and appears to be restricted to mesotheliomas and ovarian carcinomas.In order for tumor cells to gain access to lymphatic or blood vessels, tumors need to promote the growth of these vessels into and around the tumor. Growth of blood vessels is called angiogenesis, and growth of lymphatic vessels is lymphangiogenesis.
   </p>
-  <script type="text/javascript" src="/Informative Website on Cancer/metastatic.js"> </script>
+  <div class="images">
+    <img src="main.png" alt="Main">
+  </div>
+  <div class="images" id="Lymph">
+    <img src="lymphatic.png" alt="Lymphatic">
+  </div>
+  <div class="images" id="Body">
+    <img src="abdom.png" alt="Abdominal">
+  </div>
+
+  <button type="button" name=""onclick="LymphToggle()" class="showImage">Transmission Through Lymphatic System</button>
+  <button type="button" name=""onclick="BWallToggle()" class="showImage">Transmission Through Body Wall/Abdomen</button>
+  <script type="text/javascript" src="metastatic.js"> </script>
 </html>

@@ -77,3 +77,19 @@ p, .a{
 h3{
   font-family: "Lucida Console", "Courier New", monospace;
 }
+
+.images{
+  width:400px;
+  height:600px;
+  position: absolute;
+  opacity:1;
+  transform: scale(0.5,0.5);
+  left: 36%;
+}
+
+.showImage{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 150px;
+  margin-left: 80px;
+}
