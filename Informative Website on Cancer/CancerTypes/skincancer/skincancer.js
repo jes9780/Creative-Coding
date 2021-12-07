@@ -2,6 +2,15 @@ let sunIntensitySlider;
 let screenIntensitySlider;
 let sunVal;
 let screenVal;
+var cnv;
+let g;
+let b;
+
+function centerCanvas(){
+  var x=(windowWidth-width-650)/2;
+  var y=(windowHeight-height)/2;
+  cnv.position(x,y);
+}
 
 function setup() {
   let canvas = createCanvas(400, 400);
@@ -21,8 +30,6 @@ function draw() {
   // screenIntensitySlider.position(200,550);
   sunVal=sunIntensitySlider.value;
   screenVal=screenIntensitySlider.value;
-  g=g-sunVal;
-  b=b-sunVal;
   push();
   fill("yellow");
   circle(400,0,sunVal*5);

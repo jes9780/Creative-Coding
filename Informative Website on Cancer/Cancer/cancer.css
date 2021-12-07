@@ -15,7 +15,7 @@ ul.toplinks {
   margin-bottom: 100px;
 }
 
-li {
+li{
   float: left;
 }
 
@@ -50,7 +50,14 @@ ul.list{
   width: 100%;
 }
 
-p, ul{
+p{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 150px;
+  margin-left: 80px;
+}
+
+ul.a{
   margin-top: 10px;
   margin-bottom: 10px;
   margin-right: 150px;
